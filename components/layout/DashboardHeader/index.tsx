@@ -1,60 +1,55 @@
 import Link from 'next/link';
 import React from 'react'
 
-
-
-const Header = () => {
+const DashboardHeader = () => {
   return (
-    <div className="sticky top-0 z-10">
-      <header className="bg-gray-900 ">
+    <div>
+      <header className="bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
-              <Link href={"/"} className="block text-[rgb(124,98,227)]">
-                <span className="sr-only">Home</span>
-                <img src="./pngcopy.png" alt="logo" className="w-16" />
-                {/* <h1 className="text-xl font-bold rounded-md bg-primary bg-transparent border border-primary px-5 py-2.5 text-white shadow hover:text-primary duration-300 ">
-                  Kinema
-                </h1> */}
-              </Link>
+              <div className="md:flex md:items-center md:gap-12">
+                <Link
+                  href={"/dashboard"}
+                  className="block text-[rgb(124,98,227)]"
+                >
+                  {/* <span className="sr-only">Home</span> */}
+                  <h1 className="text-white text-base font-bold transition hover:text-primary ">
+                    Dashboard
+                  </h1>
+                </Link>
+              </div>
             </div>
 
             <div className="hidden md:block">
               <nav aria-label="Global">
-                <div className="flex items-center gap-6 text-sm ">
+                <div className="flex items-center gap-6 text-sm">
                   <Link
-                    href={"/"}
-                    className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl "
+                    className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/stats"}
                   >
-                    Home
+                    Stats
                   </Link>
 
                   <Link
-                    href={"/movies"}
-                    className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
+                    className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/tables"}
                   >
-                    Movies
+                    Tables
                   </Link>
 
                   <Link
-                    href={"/tvshows"}
-                    className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
+                    className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/users"}
                   >
-                    TV Shows
+                    Users
                   </Link>
 
                   <Link
-                    href={"/news"}
-                    className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
+                    className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/news"}
                   >
                     News
-                  </Link>
-
-                  <Link
-                    href={"/soon"}
-                    className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
-                  >
-                    Soon
                   </Link>
                 </div>
               </nav>
@@ -63,10 +58,10 @@ const Header = () => {
             <div className="flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
                 <Link
-                  href={"/signin"}
-                  className="rounded-md bg-primary bg-transparent border border-primary px-5 py-2.5 hover:scale-110 hover:shadow-xl text-sm font-semibold text-white shadow hover:bg-white hover:text-primary duration-300"
+                  className="rounded-md bg-primary bg-transparent border border-primary px-5 py-2.5 text-sm font-semibold text-white shadow hover:bg-white hover:text-primary"
+                  href={"/"}
                 >
-                  Sign In
+                  Logout
                 </Link>
               </div>
 
@@ -91,7 +86,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-       
       </header>
 
       {/* <div className="navbar bg-base-100">
@@ -174,4 +168,4 @@ const Header = () => {
   );
 }
 
-export default Header;
+export default DashboardHeader
