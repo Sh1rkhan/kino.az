@@ -8,8 +8,8 @@ const NotFound = () => {
     <div className="w-full">
       <Header />
 
-      <div className="flex flex-col items-center justify-center  text-indigo-950 min-h-screen">
-        <h1 className="text-indigo-950 text-9xl mb-4 font-extrabold">404</h1>
+      <div className="flex flex-col items-center justify-center  text-primary min-h-screen">
+        <h1 className=" text-9xl mb-4 font-extrabold">404</h1>
         <h2 className="text-4xl  mb-2 font-bold"> Səhifə tapılmadı</h2>
         <p className="text-lg text-center max-w-md mb-8">
           Üzr istəyirik, axtardığınız səhifəni tapa bilmirik. Ola bilsin ki,
