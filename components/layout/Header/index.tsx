@@ -33,28 +33,28 @@ const Header = () => {
                     href={"/movies"}
                     className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
                   >
-                    Movies
+                    Filmlər
                   </Link>
 
                   <Link
                     href={"/tvshows"}
                     className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
                   >
-                    TV Shows
+                    Seriallar
                   </Link>
 
                   <Link
                     href={"/news"}
                     className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
                   >
-                    News
+                    Xəbərlər
                   </Link>
 
                   <Link
                     href={"/soon"}
                     className="text-white text-base font-bold transition hover:text-primary duration-300 hover:scale-110 hover:shadow-xl"
                   >
-                    Soon
+                    Tezliklə
                   </Link>
                 </div>
               </nav>
@@ -66,7 +66,7 @@ const Header = () => {
                   href={"/signin"}
                   className="rounded-md bg-primary bg-transparent border border-primary px-5 py-2.5 hover:scale-110 hover:shadow-xl text-sm font-semibold text-white shadow hover:bg-white hover:text-primary duration-300"
                 >
-                  Sign In
+                  Daxil ol
                 </Link>
               </div>
 

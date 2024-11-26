@@ -6,10 +6,7 @@ import { FaPlay } from "react-icons/fa";
 const MoviesCard = () => {
   return (
     <div className="">
-      <div
-        className="w-full h-screen bg-cover  "
-        style={{ backgroundImage: `url(/heroo.jpg)` }}
-      ></div>
+     
       <Title text={"Yeni filmlər"} />
       <div className="grid grid-cols-5 mx-10 gap-5">
         <div className="w-56 flex  hover:cursor-pointer">
