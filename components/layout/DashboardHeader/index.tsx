@@ -26,6 +26,12 @@ const DashboardHeader = () => {
                 <div className="flex items-center gap-6 text-sm">
                   <Link
                     className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/users"}
+                  >
+                    Users
+                  </Link>
+                  <Link
+                    className="text-white text-base font-bold transition hover:text-primary "
                     href={"/dashboard/stats"}
                   >
                     Stats
@@ -33,23 +39,30 @@ const DashboardHeader = () => {
 
                   <Link
                     className="text-white text-base font-bold transition hover:text-primary "
-                    href={"/dashboard/tables"}
+                    href={"/dashboard/addMovies"}
                   >
-                    Tables
+                    + Movies
                   </Link>
 
                   <Link
                     className="text-white text-base font-bold transition hover:text-primary "
-                    href={"/dashboard/users"}
+                    href={"/dashboard/addTvShows"}
                   >
-                    Users
+                    + TvShows
                   </Link>
 
                   <Link
                     className="text-white text-base font-bold transition hover:text-primary "
-                    href={"/dashboard/news"}
+                    href={"/dashboard/addNews"}
                   >
-                    News
+                    + News
+                  </Link>
+
+                  <Link
+                    className="text-white text-base font-bold transition hover:text-primary "
+                    href={"/dashboard/addSoon"}
+                  >
+                    + Soon
                   </Link>
                 </div>
               </nav>

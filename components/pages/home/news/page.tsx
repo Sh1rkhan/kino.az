@@ -3,13 +3,12 @@ import React from "react";
 import BigCards from "./cardsBig/page";
 import SmallCards from "./cardsSmall/page";
 
-const News = () => {
+const NewsCards = () => {
   return (
-    <div className="">
-     
-      <Title text={"Son xəbərlər"}/>
+    <div className="mt-10">
+      <Title text={"Son xəbərlər"} />
 
-      <div className="container flex justify-center mt-3">
+      <div className="container flex justify-center mt-3 m-auto">
         <BigCards startNumber={0} endNumber={1} />
         <p className=" border-l-2 border-dashed border-spacing-2 border-foreground h-end ml-20 mr-9"></p>
         <SmallCards startNumber={1} endNumber={4} />
@@ -18,4 +17,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default NewsCards;

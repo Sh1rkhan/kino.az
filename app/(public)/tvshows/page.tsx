@@ -1,8 +1,11 @@
+import { TvShowsCards } from '@/components/pages/tvshows'
 import React from 'react'
 
 const TvShows = () => {
   return (
-    <div>tvShows</div>
+    <div>
+      <TvShowsCards/>
+    </div>
   )
 }
 

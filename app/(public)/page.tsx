@@ -1,7 +1,6 @@
 import { HeroSection } from "@/components/pages/home/heroSection";
-import MoviesCard from "@/components/pages/home/moviesCard";
-import { CarouselSize } from "@/components/pages/home/moviesCard/test";
-import News from "@/components/pages/home/news/page";
+import { CarouselSize } from "@/components/pages/home/moviesCarousel";
+import NewsCards from "@/components/pages/home/news/page";
 import Subscribe from "@/components/pages/home/Subscribe";
 
 export default function Home() {
@@ -9,17 +8,18 @@ export default function Home() {
     <>
       <div className=" ">
         <HeroSection></HeroSection>
-        
-        <CarouselSize></CarouselSize>
+
+        <CarouselSize CategoryTitle={"Son əlavə olanlar"}/>
+        <CarouselSize CategoryTitle={"Azərbaycan filmləri"}/>
+        <CarouselSize CategoryTitle={"Ən reytinqli"}/>
+        <CarouselSize CategoryTitle={"Komediya"}/>
+        <CarouselSize CategoryTitle={"Drama"}/>
+        <CarouselSize CategoryTitle={"Detektiv"}/>
         <div className="flex flex-col ">
-          <MoviesCard />
-
-          <News />
+          <NewsCards />
         </div>
 
-        <div>
-          
-        </div>
+        <div></div>
         <div className="flex justify-center">
           <Subscribe />
         </div>

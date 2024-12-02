@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react'
 
 interface SmallContainerProps {
@@ -18,7 +17,7 @@ const SmallContainer: React.FC<SmallContainerProps> = ({
   return (
     <>
       <div className="gap-3 mb-4 w-full">
-        <div className="rounded-3xl flex gap-4 bg-cover bg-no-repeat">
+        <div className="rounded-3xl flex gap-4 bg-cover bg-no-repeat flex-wrap">
           <div
             className="w-40 h-40 rounded-3xl bg-cover bg-no-repeat bg-center"
             style={{ backgroundImage: `url(${img})` }}

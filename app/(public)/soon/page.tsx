@@ -1,10 +1,11 @@
-import { CarouselCard } from '@/components/pages/trailers/carousel'
+
+import Cards from '@/components/common/Cards'
 import React from 'react'
 
 const Trailers = () => {
   return (
     <div className='content m-auto'>
-        <CarouselCard/>
+      <Cards/>
     </div>
   )
 }

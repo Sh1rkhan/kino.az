@@ -12,10 +12,10 @@ import {
 import Image from "next/image";
 import Title from "@/components/common/Title";
 
-export function CarouselSize() {
+export function CarouselSize({CategoryTitle}) {
   return (
     <div>
-      <Title text={"Yeni filmlər"} />
+      <Title text={CategoryTitle} />
 
       <Carousel
         opts={{
@@ -27,11 +27,11 @@ export function CarouselSize() {
           {Array.from({ length: 10 }).map((_, index) => (
             <CarouselItem
               key={index}
-              className="md:basis-1/3 lg:basis-1/5 text-white "
+              className="basis-1/2 md:basis-1/3 lg:basis-1/5 text-white "
             >
               <div className="relative group ">
                 <Card className="border-0 border-collapse">
-                  <CardContent className="bg-indigo-900 rounded-xl p-0 flex flex-col aspect-square justify-between overflow-visible  ">
+                  <CardContent className="bg-indigo-900 rounded-xl p-0 flex flex-col  justify-between  ">
                     <h4 className="font-bold text-sm p-1 text-center">
                       Le Comte de Monte-Cristo
                     </h4>

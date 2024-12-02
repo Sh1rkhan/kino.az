@@ -148,7 +148,7 @@ const Footer = () => {
               target="_blank"
               className="text-white transition hover:text-primary"
             >
-              <span className="sr-only">GitHub</span>
+              <span className="sr-only">Youtube</span>
               <svg
                 className="size-6"
                 fill="currentColor"

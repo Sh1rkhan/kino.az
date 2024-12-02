@@ -3,18 +3,18 @@ import Image from "next/image";
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { FaPlay } from "react-icons/fa";
 
-const MoviesCard = () => {
+const Cards = () => {
   return (
     <div className="">
      
       <Title text={"Yeni filmlər"} />
-      <div className="grid grid-cols-5 mx-10 gap-5">
-        <div className="w-56 flex  hover:cursor-pointer">
-          <Card className=" bg-indigo-900 text-white">
+      <div className="flex justify-center flex-wrap gap-3">
+        <div className="w-52 flex  hover:cursor-pointer">
+          <Card className=" bg-indigo-900 text-white ">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base ">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -39,12 +39,12 @@ const MoviesCard = () => {
           </Card>
         </div>
 
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -68,12 +68,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -97,12 +97,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -126,12 +126,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -155,12 +155,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -184,12 +184,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -213,12 +213,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -242,12 +242,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -271,12 +271,12 @@ const MoviesCard = () => {
             </CardBody>
           </Card>
         </div>
-        <div className="w-56 flex  hover:cursor-pointer">
+        <div className="w-52 flex  hover:cursor-pointer">
           <Card className=" bg-indigo-900 text-white">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
               <h4 className="font-bold text-base">Le Comte de Monte-Cristo</h4>
             </CardHeader>
-            <CardBody className="overflow-visible py-2 ">
+            <CardBody className="overflow-visible p-2 ">
               <div className="relative group">
                 <Image
                   alt="Card background"
@@ -305,4 +305,4 @@ const MoviesCard = () => {
   );
 };
 
-export default MoviesCard;
+export default Cards;
